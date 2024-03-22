@@ -1,0 +1,36 @@
+#Para ver se é um repositório
+$git status
+
+inicializar um repositório
+$git init
+
+# Adicionar origem remota (github)
+$git add remote origin **LINK github**
+
+#adicionar (rastrear) arquivos no repositório
+$git add .
+
+#confirmar alterações
+$git commit -a -m "Mensagem"
+
+#enviar ao github
+$git push origin master
+
+#clonar um repositório do github
+$git clone **link github**
+
+-----------------------------------------
+
+Ordem:
+
+1- $git init
+
+2- $git status
+
+3- $git add .
+
+4- $git commit -a -m "Mensagem"
+
+5- $git add remote origin **LINK github**
+
+6- $git push origin master
